@@ -9,12 +9,12 @@ class Students:
         self.language = language
 
 
-    def getroll(self):
-        print(f"Your roll no. is:{self.roll}\nYour language is:{self.language} ")
-    def greet(self):
-        print(f"Good moring, {self.name}")
+    # def getroll(self):
+    #     print(f"Your roll no. is:{self.roll}\nYour language is:{self.language} ")
+    # def greet(self):
+    #     print(f"Good moring, {self.name}")
 
 farhan = Students("Farhan", 1224071,"JavaScript")
-farhan.greet()
-farhan.getroll()
-# print(farhan.name,farhan.roll)
+print(farhan.name,farhan.roll,farhan.language)
+# farhan.greet()
+# farhan.getroll()
