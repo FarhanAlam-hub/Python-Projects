@@ -4,8 +4,16 @@ class number:
 
     def __add__(self, num):
         return self.n + num.n
+    
+    def __sub__(self, num):
+        return self.n - num.n
+    
+    def __mul__(self, num):
+        return self.n * num.n
 
-n = number(1)
+n = number(4)
 m = number(2)
 
 print(n + m)
+print(n - m)
+print(n * m)
