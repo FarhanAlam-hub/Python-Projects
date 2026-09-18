@@ -1,3 +1,4 @@
+from functools import  reduce
 # Map Example
 l = [1,2,3,4,6,8,7]
 
@@ -14,3 +15,9 @@ def even(n):
 
 onlyEven = filter(even,l)
 print(list(onlyEven))
+
+# Reduce Example
+
+def sum(a,b):
+    return a+b
+print(reduce(sum,l))
